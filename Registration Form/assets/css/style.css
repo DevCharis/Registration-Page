@@ -1,0 +1,87 @@
+/* Common styles */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #363636;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+#registrationForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffffb3;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px #ccc;
+    position: relative;
+    transform: translateY(30%);
+
+}
+
+label {
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px #1a19197f;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0054a5;
+}
+
+/* Header and Footer Styles */
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header {
+    padding: 10px;
+    top: 0;
+}
+
+header h1 {
+    color: #f0f0f0;
+}
+
+footer {
+    padding: 10px 0;
+    bottom: 0;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <!-- Set the title of the page -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Link to an external CSS stylesheet -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Registration Form by DevCharis</h1>
+      <!-- Create a header with a title -->
+    </header>
+
+    <form id="registrationForm" action="submit.php" method="post">
+      <!-- Create a form element with an ID, action, and method attributes -->
+      <label for="username">Username:</label>
+      <!-- Label for the username input field -->
+      <input type="text" id="username" name="username" required />
+      <!-- Input field for the username with ID and name attributes -->
+      <div id="usernameError" class="error"></div>
+      <!-- Error message container for the username field -->
+
+      <label for="email">Email:</label>
+      <!-- Label for the email input field -->
+      <input type="email" id="email" name="email" required />
+      <!-- Input field for the email with ID and name attributes -->
+      <div id="emailError" class="error"></div>
+      <!-- Error message container for the email field -->
+
+      <label for="password">Password:</label>
+      <!-- Label for the password input field -->
+      <input type="password" id="password" name="password" required />
+      <!-- Input field for the password with ID and name attributes -->
+      <div id="passwordError" class="error"></div>
+      <!-- Error message container for the password field -->
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <!-- Label for the confirm password input field -->
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+      />
+      <!-- Input field for confirming the password with ID and name attributes -->
+      <div id="confirmPasswordError" class="error"></div>
+      <!-- Error message container for the confirm password field -->
+
+      <button type="submit">Register</button>
+      <!-- Submit button for the form -->
+    </form>
+    <footer>
+      <p>&copy DevCharis 2023|All Rights Reserved</p>
+      <!-- Footer with copyright information -->
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <!-- Include an external JavaScript file -->
+  </body>
+</html>
+<!--End of code-->
